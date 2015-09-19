@@ -67,9 +67,9 @@ $github-gray: #e4e4e4;
 
   // Comment these two lines if you want a single image to cover the entire page.
   //  background: url(/assets/images/background.jpg) no-repeat center center;
-  //  background-size: cover;
   //  background: $brand-primary;
-  background: url('https://s3.amazonaws.com/hackmit-assets/tintedphoto_1920_1080_low.jpg');
+  background: url('https://s3.amazonaws.com/hackmit-assets/tintedphoto_1920_1080_low.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 
