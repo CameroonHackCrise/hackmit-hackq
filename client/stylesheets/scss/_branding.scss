@@ -8,10 +8,10 @@
 //------------------------------
 
 // Primary color of your brand
-$brand-primary: #137DC3;
+$brand-primary: #e76482;
 
 // Secondary color of your brand
-$brand-secondary: #FFBF0A;
+$brand-secondary: #473899;
 
 // Success Buttons
 $brand-success: rgb(46, 204, 113);
@@ -68,8 +68,8 @@ $github-gray: #e4e4e4;
   // Comment these two lines if you want a single image to cover the entire page.
   //  background: url(/assets/images/background.jpg) no-repeat center center;
   //  background-size: cover;
-//  background: $brand-primary;
-  background: url(/assets/images/geometry2.png) repeat;
+  //  background: $brand-primary;
+  background: url('https://s3.amazonaws.com/hackmit-assets/tintedphoto_1920_1080_low.jpg');
 }
 
 
@@ -78,8 +78,9 @@ $github-gray: #e4e4e4;
   color: white;
   //  background: url(/assets/images/background.jpg) no-repeat center center;
   //  background-size: cover;
-  //  background: $brand-primary;
-  background: url(/assets/images/geometry2.png) repeat;
+  background: $brand-secondary;
+  // background: url('https://s3.amazonaws.com/hackmit-assets/tintedphoto_1920_1080_low.jpg');
+  // background-position: 0 530px;
 }
 
 // Footer, which appears on each page.
