@@ -8,16 +8,16 @@
 //------------------------------
 
 // Primary color of your brand (Used for primary buttons, glows, etc.)
-$brand-primary: #137DC3;
+$brand-primary: #0b3b4b;
 
 // Secondary color of your brand (used for secondary buttons)
-$brand-secondary: #FFBF0A;
+$brand-secondary: #4ecdc4;
 
 // Success Buttons
-$brand-success: rgb(46, 204, 113);
+$brand-success: #c9d41b;
 
 // Danger/Negative Buttons
-$brand-danger: #FF490A;
+$brand-danger: #fb2222;
 
 // Black
 $black: #2d2d2d;
@@ -67,7 +67,6 @@ $github-gray: #e4e4e4;
 
 // The splash is the login page.
 #splash {
-
   // There are a few defaults that are here, which you can comment/uncomment,
   // but you should feel free to change this to whatever you want.
 
@@ -75,14 +74,20 @@ $github-gray: #e4e4e4;
   color: white;
 
   // Basic white text on brand color:
-  // background: $brand-primary;
+  background: linear-gradient(
+    to right,
+    #fc5454 0%, #fc5454 25%,
+    #4ecdc4 25%, #4ecdc4 50%,
+    #c9d41b 50%, #c9d41b 75%,
+    #ffe86b 75%, #ffe86b 100%
+  );
 
   // Single background image covering the entire page
   // background: url(/assets/images/background.jpg) no-repeat center center;
   // background-size: cover;
 
   // Background image that repeats
-  background: url(/assets/images/geometry2.png) repeat;
+  // background: url(/assets/images/geometry2.png) repeat;
 }
 
 
@@ -96,10 +101,10 @@ $github-gray: #e4e4e4;
   // background-size: cover;
 
   // Basic white on brand color:
-  // background: $brand-primary;
+  background: $brand-secondary;
 
   // Repeated Background:
-  background: url(/assets/images/geometry2.png) repeat;
+  // background: url(/assets/images/geometry2.png) repeat;
 }
 
 // Footer, which appears on each page.
