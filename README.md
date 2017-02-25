@@ -8,7 +8,8 @@ An extensible, customizable real-time queue system, built with [Meteor](https://
 What is this?
 ------------
 
-HELPq was originally built for [HackMIT](https://hackmit.org), but has been used at hackathons like [Blueprint](http://blueprint.hackmit.org), [Meteor Summer Hackathon 2015](http://meteorhack.meteor.com/), [WHACK](http://wellesleyhacks.org/), [MakeMIT](http://makemit.org/) and [WildHacks](http://wildhacks.org/) (among others!).
+HELPq was originally built for [
+](https://hackmit.org), but has been used at hackathons like [Blueprint](http://blueprint.hackmit.org), [Meteor Summer Hackathon 2015](http://meteorhack.meteor.com/), [WHACK](http://wellesleyhacks.org/), [MakeMIT](http://makemit.org/) and [WildHacks](http://wildhacks.org/) (among others!).
 
 It is a real-time help queue and mentor management application, targeted at hackathons and classrooms, where there is a need for issues to be claimed and satisfied within minutes. It includes a simple interface for requesting tickets, claiming tickets, administrating users/mentors, and examining metrics.
 
